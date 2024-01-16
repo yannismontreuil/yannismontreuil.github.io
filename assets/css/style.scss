@@ -4,8 +4,10 @@
 @import "jekyll-theme-minimalist";
 
 .img-circle {
-    width: 100px;  /* Adjust the width as needed */
-    height: auto;  /* Height is auto to maintain aspect ratio */
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px; 
+    margin-bottom: 10px;
 }
 
 .overlay {
