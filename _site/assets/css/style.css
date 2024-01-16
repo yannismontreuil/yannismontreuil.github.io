@@ -564,9 +564,6 @@ footer {
   .link-wrapper {
     display: none !important;
   }
-  .img-circle {
-    display: none !important;
-  }
 }
 @media print, screen and (max-width: 720px) {
   body {
@@ -586,11 +583,7 @@ footer {
   margin-bottom: 20px;
 }
 
-@media print, screen and (min-width: 961px) {
-  .link-wrapper-mobile {
-    display: none !important;
-  }
-}
+
 @media print, screen and (max-width: 480px) {
   body {
     padding: 15px;
