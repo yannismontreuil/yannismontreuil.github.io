@@ -1,4 +1,7 @@
 <div class="link-wrapper-mobile" id="link-wrapper-mobile">
+    {% if site.logo %}
+        <img class="logo" src="{{ site.logo | relative_url }}" alt="Logo">
+    {% endif %}
     <style scoped>
     	#link-wrapper-mobile .logo {
             display: block; /* or inline-block, depending on your layout needs */
@@ -16,9 +19,7 @@
     </style>
 
     <!-- Logo Image -->
-    {% if site.logo %}
-        <img class="logo" src="{{ site.logo | relative_url }}" alt="Logo">
-    {% endif %}
+
 
     <!-- Links -->
     {%- for platform in site.sidebar %}
