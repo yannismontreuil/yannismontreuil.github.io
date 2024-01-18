@@ -27,23 +27,23 @@
       <div class="sidebar">
         <header>
         {% if site.blank_title %}
-            <h1 style="text-align: center;">{{ site.title}}</h1>
+            <h1 style="text-align: center;">{{ site.title }}</h1>
           {% else %}
             <h1 style="text-align: center;">{{ site.title}}</a></h1>
           {% endif %}
           {% if site.logo %}
             <img class="img-circle" src="{{site.logo | relative_url}}" alt="Logo">
           {% endif %}
-	<div><h3>{{ site.description_phd | default: site.github.project_tagline_sub }}</h3></div>
-	<div><h3>{{ site.description_dep | default: site.github.project_tagline_sub }}</h3></div>
-	<div><h3>{{ site.description_nus | default: site.github.project_tagline_sub }}</h3></div>
+	<div><h3>{{ site.description_phd}}</h3></div>
+	<div><h3>{{ site.description_dep}}</h3></div>
+	<div><h3>{{ site.description_nus}}</h3></div>
 
           {% include sidebar.html %}
 
           {% if site.email %}
             <p class="addr"><i class="fa-regular fa-envelope"></i>&nbsp;{{ site.email }}</p>
           {% endif %}
-	<div><h3>{{ site.description_state | default: site.github.project_tagline_sub }}</h3></div>
+	<div><h3>{{ site.description_state}}</h3></div>
           
 
         </header>
