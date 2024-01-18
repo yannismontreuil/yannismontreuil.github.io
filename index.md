@@ -1,6 +1,5 @@
 ---
 layout: default
-Title: Yannis Montreuil
 ---
 
 
