@@ -1,6 +1,8 @@
 ---
 layout: default
+Title: Yannis Montreuil
 ---
+
 
 
 ## Talks
