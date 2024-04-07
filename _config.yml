@@ -16,6 +16,7 @@ plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
   - jemoji
+  - jekyll-remote-theme
 
 # You can find fonts from https://iconify.design or https://fontawesome.com. Below is just an example illustrating how to use custom icons
 sidebar:
@@ -31,8 +32,5 @@ sidebar:
 # When running locally, we run into the following error —
 # GitHub Metadata: No GitHub API authentication could be found. Some fields may be missing or have incorrect data.
 # adding this avoids it
-plugins:
-  - jekyll-remote-theme
-  - jekyll-sitemap
 remote_theme: BDHU/minimalist
 github: [metadata]
