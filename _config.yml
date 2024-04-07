@@ -33,5 +33,6 @@ sidebar:
 # adding this avoids it
 plugins:
   - jekyll-remote-theme
+  - jekyll-sitemap
 remote_theme: BDHU/minimalist
 github: [metadata]
