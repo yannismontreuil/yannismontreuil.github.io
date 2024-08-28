@@ -1,14 +1,15 @@
 title: Yannis Montreuil
 logo: /assets/img/logo.png
 description_phd: <p>PhD Candidate<br><a href="https://aisingapore.org/research/phd-fellowship-programme/">AISG and A*MA Recipient</a><br><a href="https://www.comp.nus.edu.sg/">School of Computing</a> <br> <a href="https://nus.edu.sg/">National University of Singapore</a></p>
-description_state: 
-<h3>About Me</h3>
-<p align="justify">
-  Welcome! I am Yannis Montreuil, a dedicated PhD student at the National University of Singapore's School of Computing. Under the esteemed guidance of Assoc. Prof. Ooi Wei Tsang, Dr. Lai Xing Ng, and Assoc. Prof. Axel Carlier, my research explores the frontiers of Learning Theory and Human-AI Collaboration. I am a proud recipient of the DesCartes Joint Excellence Scholarship, supported by CNRS@CREATE, AI Singapore, and A*STAR.
-</p>
-<p align="justify">
-  My work focuses on innovative methods in Learning with Abstention and Learning to Defer, aiming to enhance decision-making processes in smart technologies. Through my research, I strive to bridge the gap between human cognitive capabilities and artificial intelligence, pushing the boundaries of what machines can learn and how they can support human endeavors in complex environments.
-</p>
+description_state: |
+  <h3>About Me</h3>
+  <p align="justify">
+    Welcome! I am Yannis Montreuil, a dedicated PhD student at the National University of Singapore's School of Computing. Under the esteemed guidance of Assoc. Prof. Ooi Wei Tsang, Dr. Lai Xing Ng, and Assoc. Prof. Axel Carlier, my research explores the frontiers of Learning Theory and Human-AI Collaboration. I am a proud recipient of the DesCartes Joint Excellence Scholarship, supported by CNRS@CREATE, AI Singapore, and A*STAR.
+  </p>
+  <p align="justify">
+    My work focuses on innovative methods in Learning with Abstention and Learning to Defer, aiming to enhance decision-making processes in smart technologies. Through my research, I strive to bridge the gap between human cognitive capabilities and artificial intelligence, pushing the boundaries of what machines can learn and how they can support human endeavors in complex environments.
+  </p>
+
 
 show_downloads: false
 google_analytics: G-6TXM5TX2E7
