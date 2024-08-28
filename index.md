@@ -15,8 +15,7 @@ title: "Yannis Montreuil"
 CS5242 Neural Networks and Deep Learning
 
 ## Students
-AY24/25: Yeo Shu Heng, Dang Hoang Duy
-
+AY24/25: Yeo Shu Heng, Dang Hoang Duy\\
 AY23/24: Seah Min-Rei, Yeo Shu Heng, Dang Hoang Duy
 
 
