@@ -27,13 +27,27 @@ plugins:
   - jemoji
   - jekyll-remote-theme
 
-sidebar:
-  - name: GitHub
-    icon: "<i class='fa-brands fa-github'></i>"
-    link: https://github.com/yannismontreuil
-  - name: Mail
-    icon: "<svg xmlns='http://www.w3.org/2000/svg' aria-hidden='true' role='img' style='vertical-align:-0.125em;' width='1em' height='1em' preserveAspectRatio='xMidYMid meet' viewBox='0 0 24 24'><path fill='currentColor' d='M4 20q-.825 0-1.412-.587T2 18V6q0-.825.588-1.412T4 4h16q.825 0 1.413.588T22 6v12q0 .825-.587 1.413T20 20zm8-7L4 8v10h16V8zm0-2l8-5H4zM4 8V6v12z'/></svg>"
-    link: mailto:yannis.montreuil@u.nus.edu
+# sidebar:
+#   - name: GitHub
+#     icon: "<i class='fa-brands fa-github'></i>"
+#     link: https://github.com/yannismontreuil
+#   - name: Mail
+#     icon: "<svg xmlns='http://www.w3.org/2000/svg' aria-hidden='true' role='img' style='vertical-align:-0.125em;' width='1em' height='1em' preserveAspectRatio='xMidYMid meet' viewBox='0 0 24 24'><path fill='currentColor' d='M4 20q-.825 0-1.412-.587T2 18V6q0-.825.588-1.412T4 4h16q.825 0 1.413.588T22 6v12q0 .825-.587 1.413T20 20zm8-7L4 8v10h16V8zm0-2l8-5H4zM4 8V6v12z'/></svg>"
+#     link: mailto:yannis.montreuil@u.nus.edu
+sidebar: |
+  <div style="display: flex; align-items: center; justify-content: start; gap: 10px;">
+    <a href="https://github.com/yannismontreuil" style="display: flex; align-items: center;">
+      <i class="fa-brands fa-github" style="font-size: 1.5em;"></i>
+      <span style="margin-left: 5px;">GitHub</span>
+    </a>
+    <a href="mailto:yannis.montreuil@u.nus.edu" style="display: flex; align-items: center;">
+      <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" style="fill: currentColor; vertical-align: -0.125em; width: 1.5em; height: 1.5em; margin-right: 5px;" viewBox="0 0 24 24">
+        <path fill="currentColor" d="M4 20q-.825 0-1.412-.587T2 18V6q0-.825.588-1.412T4 4h16q.825 0 1.413.588T22 6v12q0 .825-.587 1.413T20 20zm8-7L4 8v10h16V8zm0-2l8-5H4zM4 8V6v12z"/>
+      </svg>
+      <span>Mail</span>
+    </a>
+  </div>
+
 
 remote_theme: BDHU/minimalist
 github: [metadata]
