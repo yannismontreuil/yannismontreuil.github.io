@@ -4,8 +4,11 @@ description_phd: <p>PhD Candidate<br><a href="https://aisingapore.org/research/p
 description_state: |
   <h3>About Me</h3>
   <p align="justify">
-    Welcome! I am Yannis Montreuil, a dedicated PhD student at the National University of Singapore's School of Computing. Under the esteemed guidance of Assoc. Prof. Ooi Wei Tsang, Dr. Lai Xing Ng, and Assoc. Prof. Axel Carlier, my research explores the frontiers of Learning Theory and Human-AI Collaboration. I am a proud recipient of the DesCartes Joint Excellence Scholarship, supported by CNRS@CREATE, AI Singapore, and A*STAR.
-  </p>
+  I am Yannis, a first-year PhD student at the <a href="https://www.comp.nus.edu.sg">School of Computing</a>,
+  National University of Singapore, under the guidance of Assoc. Prof. <a href="https://www.comp.nus.edu.sg/~ooiwt/">Ooi Wei Tsang</a>, 
+  Dr. <a href="https://ipal.cnrs.fr/lai-xing-ng/">Lai Xing Ng</a>, and Assoc. Prof. <a href="https://ipal.cnrs.fr/axel-carlier-personal-page/">Axel 
+  Carlier</a>. I am honored to be supported by <a href="https://www.cnrsatcreate.cnrs.fr/">CNRS@CREATE</a>, <a href="https://aisingapore.org/">AI Singapore</a>, 
+  and <a href="https://www.a-star.edu.sg/">A*STAR</a> as a recipient of the DesCartes Joint Excellence Scholarship.  </p>
   <p align="justify">
     My work focuses on innovative methods in Learning with Abstention and Learning to Defer, aiming to enhance decision-making processes in smart technologies. Through my research, I strive to bridge the gap between human cognitive capabilities and artificial intelligence, pushing the boundaries of what machines can learn and how they can support human endeavors in complex environments.
   </p>
