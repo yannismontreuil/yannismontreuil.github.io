@@ -1,24 +1,19 @@
 title: Yannis Montreuil
 logo: /assets/img/logo.png
-description_phd: <p>PhD Candidate<br><a href="https://aisingapore.org/research/phd-fellowship-programme/">AISG and A*MA Recipient</a><br><a href="https://www.comp.nus.edu.sg/">School of Computing</a> <br> <a href="https://nus.edu.sg/">National University of Singapore</a></p>
+description_phd: "<p>PhD Candidate<br><a href='https://aisingapore.org/research/phd-fellowship-programme/'>AISG and A*MA Recipient</a><br><a href='https://www.comp.nus.edu.sg/'>School of Computing</a> <br> <a href='https://nus.edu.sg/'>National University of Singapore</a></p>"
 description_state: |
   <h3>About Me</h3>
   <p align="justify">
-  I am Yannis, a  PhD Candidate at the <a href="https://www.comp.nus.edu.sg">School of Computing</a>,
-  National University of Singapore, under the guidance of Prof. <a href="https://www.comp.nus.edu.sg/~ooiwt/">Ooi Wei Tsang</a>, 
-  Dr. <a href="https://ipal.cnrs.fr/lai-xing-ng/">Lai Xing Ng</a>, and Prof. <a href="https://ipal.cnrs.fr/axel-carlier-personal-page/">Axel 
-  Carlier</a>.  </p>
-
- <h3>Supports</h3>
+  I am Yannis, a PhD Candidate at the <a href="https://www.comp.nus.edu.sg">School of Computing</a>, National University of Singapore, under the guidance of Prof. <a href="https://www.comp.nus.edu.sg/~ooiwt/">Ooi Wei Tsang</a>, Dr. <a href="https://ipal.cnrs.fr/lai-xing-ng/">Lai Xing Ng</a>, and Prof. <a href="https://ipal.cnrs.fr/axel-carlier-personal-page/">Axel Carlier</a>.
+  </p>
+  <h3>Supports</h3>
   <p align="justify">
-I am honored to be a recipient of the prestigious scholarships from AI Singapore (AISG) 
-and A*STAR (A*Merit Award), as part of my involvement in the DesCartes Program with CNRS@CREATE.  </p>
-  
+  I am honored to be a recipient of the prestigious scholarships from AI Singapore (AISG) and A*STAR (A*Merit Award), as part of my involvement in the DesCartes Program with CNRS@CREATE.
+  </p>
   <h3>Research Interests</h3>
   <p align="justify">
   Learning-to-Defer, Learning from Abstention, Human-AI Collaboration, Learning Theory.
   </p>
-
 
 show_downloads: false
 google_analytics: G-6TXM5TX2E7
@@ -29,19 +24,13 @@ plugins:
   - jemoji
   - jekyll-remote-theme
 
-# You can find fonts from https://iconify.design or https://fontawesome.com. Below is just an example illustrating how to use custom icons
 sidebar:
   - name: GitHub
-    icon: <i class="fa-brands fa-github"></i>
+    icon: "<i class='fa-brands fa-github'></i>"
     link: https://github.com/yannismontreuil
   - name: Mail
-    icon: <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" style="vertical-align:-0.125em;" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path fill="currentColor" d="M4 20q-.825 0-1.412-.587T2 18V6q0-.825.588-1.412T4 4h16q.825 0 1.413.588T22 6v12q0 .825-.587 1.413T20 20zm8-7L4 8v10h16V8zm0-2l8-5H4zM4 8V6v12z"/></svg>
+    icon: "<svg xmlns='http://www.w3.org/2000/svg' aria-hidden='true' role='img' style='vertical-align:-0.125em;' width='1em' height='1em' preserveAspectRatio='xMidYMid meet' viewBox='0 0 24 24'><path fill='currentColor' d='M4 20q-.825 0-1.412-.587T2 18V6q0-.825.588-1.412T4 4h16q.825 0 1.413.588T22 6v12q0 .825-.587 1.413T20 20zm8-7L4 8v10h16V8zm0-2l8-5H4zM4 8V6v12z'/></svg>"
     link: mailto:yannis.montreuil@u.nus.edu
 
-
-# https://github.com/github/pages-gem/issues/399#issuecomment-301827749
-# When running locally, we run into the following error —
-# GitHub Metadata: No GitHub API authentication could be found. Some fields may be missing or have incorrect data.
-# adding this avoids it
 remote_theme: BDHU/minimalist
 github: [metadata]
