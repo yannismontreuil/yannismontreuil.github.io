@@ -11,8 +11,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- Set the title directly -->
+    <title>Yannis Montreuil</title>
 
-{% seo %}
     <link rel="stylesheet" href="{{ "/assets/css/colors-ColorScheme.css?v=" | replace: "ColorScheme", ColorScheme | append: site.github.build_revision | relative_url }}">
     <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
 
@@ -26,26 +28,22 @@
     <div class="wrapper">
       <div class="sidebar">
         <header>
-          {% if site.blank_title %}
-              <h1 style="text-align: center;">{{ site.title }}</h1>
-          {% else %}
-              <h1 style="text-align: center;">{{ site.title }}</h1>
-          {% endif %}
+          <!-- Set static h1 title -->
+          <h1 style="text-align: center;">Yannis Montreuil</h1>
+          
           {% if site.logo %}
             <img class="img-circle" src="{{site.logo | relative_url}}" alt="Logo">
           {% endif %}
-	<div><h3>{{ site.description_phd}}</h3></div>
-	<div><h3>{{ site.description_dep}}</h3></div>
-	<div><h3>{{ site.description_nus}}</h3></div>
+	        <div><h3>{{ site.description_phd }}</h3></div>
+	        <div><h3>{{ site.description_dep }}</h3></div>
+	        <div><h3>{{ site.description_nus }}</h3></div>
 
           {% include sidebar.html %}
 
           {% if site.email %}
             <p class="addr"><i class="fa-regular fa-envelope"></i>&nbsp;{{ site.email }}</p>
           {% endif %}
-	<div><h3>{{ site.description_state}}</h3></div>
-          
-
+	        <div><h3>{{ site.description_state }}</h3></div>
         </header>
 
         {% include links-mobile.html %}
@@ -55,9 +53,7 @@
         </div>
       </div>
       <section>
-
-      {{ content }}
-
+        {{ content }}
       </section>
       <footer>
         {%- include footer.html -%}
