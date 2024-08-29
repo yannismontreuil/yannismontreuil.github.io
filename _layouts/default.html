@@ -26,11 +26,11 @@
     <div class="wrapper">
       <div class="sidebar">
         <header>
-        {% if site.blank_title %}
-            <h1 style="text-align: center;">Yannis Montreuil, PhD Candidate</h1>
-        {% else %}
-            <h1 style="text-align: center;">Yannis Montreuil, PhD Candidate</h1>
-        {% endif %}
+          {% if site.blank_title %}
+              <h1 style="text-align: center;">{{ site.title }}</h1>
+          {% else %}
+              <h1 style="text-align: center;">{{ site.title }}</h1>
+          {% endif %}
           {% if site.logo %}
             <img class="img-circle" src="{{site.logo | relative_url}}" alt="Logo">
           {% endif %}
