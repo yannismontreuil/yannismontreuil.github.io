@@ -1,12 +1,5 @@
-{% case site.color-scheme %}
-  {% when "", nil, false, 0, empty %}
-    {% assign ColorScheme = "auto" %}
-  {% else %}
-    {% assign ColorScheme = site.color-scheme %}
-{% endcase %}
-
 <!DOCTYPE html>
-<html lang="{{ site.lang | default: "en-US" }}">
+<html lang="en-US">
   <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -15,50 +8,43 @@
     <!-- Set the title directly -->
     <title>Yannis Montreuil</title>
 
-    <link rel="stylesheet" href="{{ "/assets/css/colors-ColorScheme.css?v=" | replace: "ColorScheme", ColorScheme | append: site.github.build_revision | relative_url }}">
-    <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
+    <!-- Meta Description -->
+    <meta name="description" content="Yannis Montreuil, PhD Candidate at the School of Computing, National University of Singapore. Specializing in
+      Learning-to-Defer, Learning from Abstention, Human-AI Collaboration, and Learning Theory.">
 
-    <link rel="preload" href="{{site.logo | relative_url}}" as="image">
+    <link rel="stylesheet" href="/assets/css/colors-light.css?v=">
+    <link rel="stylesheet" href="/assets/css/style.css?v=">
+
+    <link rel="preload" href="/assets/img/logo.png" as="image">
     <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
     <![endif]-->
-    {% include head-custom.html %}
+    <!-- start custom head snippets, customize with your own _includes/head-custom.html file -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css">
+
+    <!-- Setup Google Analytics -->
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-6TXM5TX2E7"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-6TXM5TX2E7');
+    </script>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-6TXM5TX2E7"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-6TXM5TX2E7');
+    </script>
+    <!-- You can set your favicon here -->
+    <!-- end custom head snippets -->
   </head>
   <body>
-    <div class="wrapper">
-      <div class="sidebar">
-        <header>
-          <!-- Set static h1 title -->
-          <h1 style="text-align: center;">Yannis Montreuil</h1>
-          
-          {% if site.logo %}
-            <img class="img-circle" src="{{site.logo | relative_url}}" alt="Logo">
-          {% endif %}
-	        <div><h3>{{ site.description_phd }}</h3></div>
-	        <div><h3>{{ site.description_dep }}</h3></div>
-	        <div><h3>{{ site.description_nus }}</h3></div>
-
-          {% include sidebar.html %}
-
-          {% if site.email %}
-            <p class="addr"><i class="fa-regular fa-envelope"></i>&nbsp;{{ site.email }}</p>
-          {% endif %}
-	        <div><h3>{{ site.description_state }}</h3></div>
-        </header>
-
-        {% include links-mobile.html %}
-
-        <div class="sidebar-footer">
-          {%- include footer.html -%}
-        </div>
-      </div>
-      <section>
-        {{ content }}
-      </section>
-      <footer>
-        {%- include footer.html -%}
-      </footer>
-    </div>
-    <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
+    <!-- Your existing content -->
   </body>
 </html>
