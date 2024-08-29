@@ -1,7 +1,3 @@
----
-layout: default
-title: "Yannis Montreuil"
----
 
 ## Talks
 
