@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Yannis Montreuil, PhD Candidate"
+title: "Yannis Montreuil"
 ---
 
 ## Talks
