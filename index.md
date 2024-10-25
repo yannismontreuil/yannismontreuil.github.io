@@ -2,7 +2,6 @@
 **Yannis Montreuil**, Yeo Shu Heng, Axel Carlier, Lai Xing Ng, & Wei Tsang Ooi (2024). Two-stage Learning-to-Defer for Multi-Task Learning. arXiv preprint [arXiv:2410.15729](https://arxiv.org/abs/2410.15729).\
 **Yannis Montreuil**, Axel Carlier, Lai Xing Ng, & Wei Tsang Ooi (2024). Learning-to-Defer for Extractive Question Answering. arXiv preprint [arXiv:2410.15761](https://arxiv.org/abs/2410.15761).
 
-
 ## Talks
 
 **Yannis Montreuil** (Oct 2023): *Human-AI in Decision Making*, Ethics of autonomy in Smart Cities, DesCartes Symposium.\
