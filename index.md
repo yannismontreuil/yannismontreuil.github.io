@@ -1,8 +1,8 @@
 ## Publications
 **Yannis Montreuil**, Axel Carlier, Lai Xing Ng, & Wei Tsang Ooi (2025). Why Ask One When You Can Ask $ k $? Two-Stage Learning-to-Defer to a Set of Experts. arXiv preprint [arXiv:2504.12988](https://arxiv.org/abs/2504.12988).\
-**Yannis Montreuil**, Axel Carlier, Lai Xing Ng, & Wei Tsang Ooi (2025). Adversarial Robustness in Two-Stage Learning-to-Defer: Algorithms and Guarantees. arXiv preprint [arXiv:2502.01027](https://arxiv.org/abs/2502.01027).\
-**Yannis Montreuil**, Yeo Shu Heng, Axel Carlier, Lai Xing Ng, & Wei Tsang Ooi (2024). Two-stage Learning-to-Defer for Multi-Task Learning. arXiv preprint [arXiv:2410.15729](https://arxiv.org/abs/2410.15729).\
-**Yannis Montreuil**, Axel Carlier, Lai Xing Ng, & Wei Tsang Ooi (2024). Learning-to-Defer for Extractive Question Answering. arXiv preprint [arXiv:2410.15761](https://arxiv.org/abs/2410.15761).
+**Yannis Montreuil**, Axel Carlier, Lai Xing Ng, & Wei Tsang Ooi (2025). Adversarial Robustness in Two-Stage Learning-to-Defer: Algorithms and Guarantees. arXiv preprint [arXiv:2502.01027](https://arxiv.org/abs/2502.01027). **Accepted to ICML 2025** \
+**Yannis Montreuil**, Yeo Shu Heng, Axel Carlier, Lai Xing Ng, & Wei Tsang Ooi (2024). Two-stage Learning-to-Defer for Multi-Task Learning. arXiv preprint [arXiv:2410.15729](https://arxiv.org/abs/2410.15729). **Accepted to ICML 2025**\
+**Yannis Montreuil**, Axel Carlier, Lai Xing Ng, & Wei Tsang Ooi (2024). Optimal Query Allocation in Extractive QA with LLMs. arXiv preprint [arXiv:2410.15761](https://arxiv.org/abs/2410.15761).
 
 ## Talks
 
